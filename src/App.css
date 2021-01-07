@@ -3,3 +3,7 @@
   font: 20px;
   padding: 10px 30px;
 }
+
+.pointer-cursor {
+  cursor: pointer;
+}

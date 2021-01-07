@@ -10,7 +10,7 @@ export default function RelatedTopicItem({ relatedTopic }) {
   }
   return (
     <li
-      className="list-group-item d-flex justify-content-between align-items-center"
+      className="list-group-item d-flex justify-content-between align-items-center pointer-cursor"
       onClick={handleClick}
     >
       <div className="row">

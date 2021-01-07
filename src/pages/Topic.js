@@ -4,8 +4,8 @@ import { useQuery, gql } from '@apollo/client';
 import {useParams} from 'react-router-dom';
 
 //components
-import TopicName from './TopicName';
-import RelatedTopicList from './RelatedTopicList';
+import TopicName from '../components/TopicName';
+import RelatedTopicList from '../components/RelatedTopicList';
 
 const getRelatedTopicQueryForTopic = (topic) => gql`
   query GetRelatedTopics {

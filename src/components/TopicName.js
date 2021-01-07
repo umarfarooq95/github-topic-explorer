@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TopicInView({ topicName }) {
+export default function TopicName({ topicName }) {
   return (
     <div className="row">
       <div className="col-12">

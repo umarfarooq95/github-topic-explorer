@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 
 import { ApolloProvider } from "@apollo/client";
-import { client } from './api';
-import Topic from "./components/Topic";
+import { client } from './api/api';
+import Topic from "./pages/Topic";
 
 function App() {
   return (
